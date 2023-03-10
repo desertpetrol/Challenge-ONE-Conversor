@@ -7,7 +7,7 @@
 Um conversor de moedas feito em Java que utiliza uma API para conversão. Caso a request da API falhe o programa utiliza uma conversão offline.  
 </p>
 <p size="4">Faça o download da versão mais recente <a href="https://github.com/desertpetrol/Challenge-ONE-Conversor/releases/">aqui</a> </p>
-## Bibliotecas e APIs externas
+### Bibliotecas e APIs externas
 <ul>
 <li> API de conversão: https://exchangerate.host/#/ </li>
 <li> Tratamento de JSON: https://github.com/google/gson </li>
