@@ -1,12 +1,18 @@
 package com.desertpetrol.GUI;
 
+import com.desertpetrol.Main;
 import com.desertpetrol.converter.Converter;
 import com.desertpetrol.converter.Currency;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -26,14 +32,18 @@ public class Window extends JFrame implements ActionListener {
         final String[] currencies = {"Real", "Dollar", "Euro", "Libras Esterlinas", "Peso argentino", "Peso Chileno"};
         Locale currencyLocale = new Locale("pt", "BR");
 
-        public Window() {
+        public Window() throws IOException {
                 frame = new JFrame();
                 this.setTitle("Conversor de moedas");
                 this.setDefaultCloseOperation(EXIT_ON_CLOSE);
                 this.setResizable(false);
                 this.setLayout(new FlowLayout(FlowLayout.LEFT, 50, 20));
-                ImageIcon img = new ImageIcon("src/main/assets/img/android-chrome-512x512.png");
-                setIconImage(img.getImage());
+
+
+                String imagePath = "/img/android-chrome-512x512.png";
+                InputStream imgStream = Window.class.getResourceAsStream(imagePath );
+                BufferedImage myImg = ImageIO.read(imgStream);
+                this.setIconImage(myImg);
 
                 //Painel contendo informações da conversão
                 JPanel information = new JPanel();
