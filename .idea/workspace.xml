@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a18c2605-2905-4b3d-9808-f56bfebe06f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/img/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/img/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/img/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/img/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/img/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desertpetrol/GUI/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desertpetrol/GUI/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desertpetrol/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desertpetrol/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demonstracao.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/conversor-de-moedas",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pedro\Desktop\conversor-de-moedas\src\main\resources" />
