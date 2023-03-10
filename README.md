@@ -6,7 +6,7 @@
 <p align="justify">
 Um conversor de moedas feito em Java que utiliza uma API para conversão. Caso a request da API falhe o programa utiliza uma conversão offline.  
 </p>
-
+<p>Faça o download da versão mais recente [aqui](https://github.com/desertpetrol/Challenge-ONE-Conversor/releases/) </p>
 ### Bibliotecas e APIs externas
 <ul>
 <li> API de conversão: https://exchangerate.host/#/ </li>
@@ -15,11 +15,7 @@ Um conversor de moedas feito em Java que utiliza uma API para conversão. Caso a
 <li> Criação do executável: https://imperceptiblethoughts.com/shadow/ </li>
 </ul>
 
-
-
-
-
-## Uso
+### Uso
 <p align="justify">
   Digite o valor desejado e escolha quais moedas deseja converter. Caso haja algum problema com a sua conexão ou a API o programa automáticamente entrará em modo offline.
 </p>
