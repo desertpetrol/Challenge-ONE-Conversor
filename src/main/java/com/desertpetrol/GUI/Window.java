@@ -164,8 +164,8 @@ public class Window extends JFrame implements ActionListener {
                 Currency.setToCode("___");
                 Converter.setConversionRate(0.000000);
                 Converter.setConversionDate("AAAA-DD-MM");
-                currencyFromCombo.setSelectedIndex(0);
-                currencyToCombo.setSelectedIndex(1);
+                currencyFromInput.setText("");
+                Converter.setConversionResult(0);
                 update();
         }
 

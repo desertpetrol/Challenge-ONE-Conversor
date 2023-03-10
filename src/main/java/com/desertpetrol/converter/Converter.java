@@ -50,7 +50,7 @@ public class Converter {
                 setConversionRate(Math.round(rate * 1e6)/1e6);
 
                 double result = getConversionRate() * Currency.getAmount();
-                setConversionResult(Math.round(result * 1e6)/1e6);
+                conversionResult = Math.round(result * 1e6)/1e6;
 
                 setConversionDate("Offline : 2023-01-03");
 
@@ -80,9 +80,9 @@ public class Converter {
                         JsonObject jsonobj = root.getAsJsonObject();
                         System.out.println(jsonobj);
 
-                        setConversionResult(jsonobj.get("result").getAsDouble());
-                        setConversionRate(jsonobj.getAsJsonObject("info").get("rate").getAsDouble());
-                        setConversionDate(jsonobj.get("date").getAsString());
+                        conversionResult = jsonobj.get("result").getAsDouble();
+                        conversionRate = (jsonobj.getAsJsonObject("info").get("rate").getAsDouble());
+                        conversionDate = jsonobj.get("date").getAsString();
                 }
         }
         public static void handleConversion() {
