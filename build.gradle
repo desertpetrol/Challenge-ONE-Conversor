@@ -20,4 +20,10 @@ test {
     useJUnitPlatform()
 }
 
+shadowJar {
+    archiveBaseName.set('Conversor de moedas')
+    archiveClassifier.set('')
+    archiveVersion.set('')
+}
+
 mainClassName = 'com.desertpetrol.Main'

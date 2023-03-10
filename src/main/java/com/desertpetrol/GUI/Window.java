@@ -32,7 +32,7 @@ public class Window extends JFrame implements ActionListener {
                 this.setDefaultCloseOperation(EXIT_ON_CLOSE);
                 this.setResizable(false);
                 this.setLayout(new FlowLayout(FlowLayout.LEFT, 50, 20));
-                ImageIcon img = new ImageIcon("assets/img/android-chrome-192x192.png");
+                ImageIcon img = new ImageIcon("src/main/assets/img/android-chrome-512x512.png");
                 setIconImage(img.getImage());
 
                 //Painel contendo informações da conversão
