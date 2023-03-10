@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
+}
+
+group 'com.desertpetrol'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.formdev:flatlaf:3.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+mainClassName = 'com.desertpetrol.Main'
