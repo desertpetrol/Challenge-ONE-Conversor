@@ -4,7 +4,7 @@
 ## About 🇬🇧
 
 <p align="justify">
-A currency converter made in Java that uses an API for conversion. In case the API request fails, the program uses offline conversion.  
+A currency converter made in Java that uses an online API. In case the GET request fails, the program uses an offline conversion with values typed manually.  
 </p>
 <p size="4">Please download the latest version <a href="https://github.com/desertpetrol/Challenge-ONE-Conversor/releases/">here</a>.</p>
 
