@@ -13,7 +13,7 @@ Um conversor de moedas feito em Java que utiliza uma API para conversão. Caso a
 
 <p size="4">Faça o download da versão mais recente <a href="https://github.com/desertpetrol/Challenge-ONE-Conversor/releases/">aqui</a> </p>
 
-<p size="4">Please, download the latest version."e <a href="https://github.com/desertpetrol/Challenge-ONE-Conversor/releases/">here</a> </p>
+<p size="4">Please, download the latest version. <a href="https://github.com/desertpetrol/Challenge-ONE-Conversor/releases/">here</a> </p>
 
 
 ### Libraries & APIs
