@@ -1,7 +1,7 @@
 <h1>Challenge ONE Back End: Currency Converter</h1> 
 <img src="https://github.com/desertpetrol/Challenge-ONE-Conversor/blob/main/demonstracao.gif">
 
-## About
+## About 🇬🇧
 
 <p align="justify">
 A currency converter made in Java that uses an API for conversion. In case the API request fails, the program uses offline conversion.  
@@ -27,7 +27,7 @@ Enter the desired amount and choose which currencies to convert. In case there i
 
 ------------------------------------------------------------------------------
 
-## Sobre
+## Sobre 🇧🇷
 
 <p align="justify">
 Um conversor de moedas feito em Java que utiliza uma API para conversão. Caso a request da API falhe o programa utiliza uma conversão offline.  
