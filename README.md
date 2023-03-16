@@ -20,23 +20,23 @@ A currency converter made in Java that uses an API for conversion. In case the A
 Enter the desired amount and choose which currencies to convert. In case there is a problem with your connection or the API, the program will automatically switch to offline mode.
 </p>
 
-Feel free to use the code as a reference, but please link to my project if you copy anything!
+<p>Feel free to use the code as a reference, but please link to my project if you copy anything!</p>
 ------------------------------------------------------------------------------
-Sobre
+## Sobre
 <p align="justify">
 Um conversor de moedas feito em Java que utiliza uma API para conversão. Caso a request da API falhe o programa utiliza uma conversão offline.  
 </p>
 <p size="4">Faça o download da versão mais recente <a href="https://github.com/desertpetrol/Challenge-ONE-Conversor/releases/">aqui</a>.</p>
-Bibliotecas e APIs
+## Bibliotecas e APIs
 <ul>
 <li>API de conversão: https://exchangerate.host/#/</li>
 <li>Tratamento de JSON: https://github.com/google/gson</li>
 <li>Estilização: https://www.formdev.com/flatlaf/</li>
 <li>Criação do executável: https://imperceptiblethoughts.com/shadow/</li>
 </ul>
-Uso
+## Uso
 <p align="justify">
 Digite o valor desejado e escolha quais moedas deseja converter. Caso haja algum problema com a sua conexão ou a API o programa entrará automaticamente em modo offline.
 </p>
 
-Sinta-se à vontade para usar o código como referência, mas por favor, link meu projeto caso você copie algo!
+<p>Sinta-se à vontade para usar o código como referência, mas por favor, link meu projeto caso você copie algo!</p>
